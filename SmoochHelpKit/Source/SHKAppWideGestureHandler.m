@@ -11,9 +11,11 @@
 #import "SHKStateMachine.h"
 #import "SHKTransition.h"
 
-static const int kVelocityRequiredForSwipe = 1000;
+#define SHK_SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
-@interface SHKAppWideGestureHandler()
+@interface SHKAppWideGestureHandler() {
+    CGFloat kVelocityRequiredForSwipe;
+}
 
 @property SHKTwoFingerSwipeGestureRecognizer* panGesture;
 @property(weak) UIWindow* currentWindow;
@@ -30,6 +32,7 @@ static const int kVelocityRequiredForSwipe = 1000;
     if (self) {
         self.otherRecognizers = [NSMutableSet new];
         self.stateMachine = stateMachine;
+        kVelocityRequiredForSwipe = SHK_SYSTEM_VERSION_LESS_THAN(@"10.0") ? 1000 : 100;
     }
     return self;
 }
