@@ -108,7 +108,7 @@
 		2840EE1C1EE5560600D04F23 /* SHKHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9A1EE5560600D04F23 /* SHKHomeViewController.h */; };
 		2840EE1D1EE5560600D04F23 /* SHKImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9B1EE5560600D04F23 /* SHKImageLoader.h */; };
 		2840EE1E1EE5560600D04F23 /* SHKLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9C1EE5560600D04F23 /* SHKLocalization.h */; };
-		2840EE1F1EE5560600D04F23 /* SHKNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9D1EE5560600D04F23 /* SHKNavigationViewController.h */; };
+		2840EE1F1EE5560600D04F23 /* SHKNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9D1EE5560600D04F23 /* SHKNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2840EE201EE5560600D04F23 /* SHKOffsetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9E1EE5560600D04F23 /* SHKOffsetManager.h */; };
 		2840EE211EE5560600D04F23 /* SHKOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840ED9F1EE5560600D04F23 /* SHKOverlayWindow.h */; };
 		2840EE221EE5560600D04F23 /* SHKSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2840EDA01EE5560600D04F23 /* SHKSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -570,6 +570,7 @@
 			files = (
 				2840EE221EE5560600D04F23 /* SHKSettings.h in Headers */,
 				2840EE291EE5560600D04F23 /* SmoochHelpKit.h in Headers */,
+				2840EE1F1EE5560600D04F23 /* SHKNavigationViewController.h in Headers */,
 				2840EE211EE5560600D04F23 /* SHKOverlayWindow.h in Headers */,
 				2840EDF01EE5560600D04F23 /* SHKArticleScreenshotWebView.h in Headers */,
 				2840EE121EE5560600D04F23 /* SHKViewAboveKeyboard.h in Headers */,
@@ -616,7 +617,6 @@
 				2840EE191EE5560600D04F23 /* SHKAppWideGestureHandler.h in Headers */,
 				2840EDE81EE5560600D04F23 /* SHKUIColor+YUVSpace.h in Headers */,
 				2840EDF81EE5560600D04F23 /* SHKGradientView.h in Headers */,
-				2840EE1F1EE5560600D04F23 /* SHKNavigationViewController.h in Headers */,
 				2840EE261EE5560600D04F23 /* SHKTwoFingerSwipeGestureRecognizer.h in Headers */,
 				2840EDD71EE5560600D04F23 /* SHKSearchEndpointFactory.h in Headers */,
 				2840EE1E1EE5560600D04F23 /* SHKLocalization.h in Headers */,

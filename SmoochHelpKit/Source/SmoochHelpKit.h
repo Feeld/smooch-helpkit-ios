@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SHKSettings.h"
+#import "SHKNavigationViewController.h"
 
 @interface SmoochHelpKit : NSObject
 
