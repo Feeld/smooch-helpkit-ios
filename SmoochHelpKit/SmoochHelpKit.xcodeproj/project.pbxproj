@@ -648,7 +648,6 @@
 				2840ED1F1EE555A200D04F23 /* Frameworks */,
 				2840ED201EE555A200D04F23 /* Headers */,
 				2840ED211EE555A200D04F23 /* Resources */,
-				04654D63B8C0DD616658F3C7 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -702,24 +701,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		04654D63B8C0DD616658F3C7 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/Smooch.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2840ED1E1EE555A200D04F23 /* Sources */ = {
